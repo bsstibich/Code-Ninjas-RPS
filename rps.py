@@ -2,13 +2,13 @@ import random
 play_trigger = True
 
 while play_trigger:
-    print("Rock, Paper, Scissors!")
+    print("\nRock, Paper, Scissors!")
     print("======================")
 
     player_choice = input("What do you choose?\n  r  p  s\n")
     computer_choice = random.choice(('r', 'p', 's'))
-    
-    print("Computer chooses " + computer_choice)
+
+    print("\nComputer chooses " + computer_choice)
 
     if player_choice == "r":
         if computer_choice == 'p':
